@@ -1,0 +1,162 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eef1f7; /* Light blue-gray background for a modern look */
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav{
+    background-color: #96e1f0;
+}
+/* Hero Section */
+#home {
+    background: linear-gradient(to right, #0077b6, #00b4d8, #0077b6); /* Cool blue gradient */
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#navbarNav {
+     
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contact Button */
+.btn-light {
+    background-color: #fff;
+    color: #0077b6; /* Matching theme */
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn-light:hover {
+    background-color: #005f86;
+    color: white;    
+}
+
+/* Profile Image */
+#d10 {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+#d10:hover {
+    transform: scale(1.05);
+}
+
+/* Skills Section */
+#skills {
+    background: #f4f7fc; /* Light background for better contrast */
+    padding: 50px 0;
+}
+/* #d1{
+    color: red;
+} */
+
+/* Qualification Section */
+/* General Badge Styling */
+.badge {
+    background: linear-gradient(135deg, #0077b6, #00b4d8); /* Gradient effect */
+    color: white;
+    padding: 12px 18px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.badge:hover {
+    background: linear-gradient(135deg, #005f86, #0096c7);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(6, 6, 6, 0.3);
+}
+
+/* Badge Layout for Qualifications */
+.qualification-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 50px 0; */
+    position: relative;
+}
+
+.qualification-container::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, #0077b6, #00b4d8);
+    transform: translateX(-50%);
+}
+
+.qualification-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    /* background: #005f86; */
+    /* border: 4px solid white; */
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    /* transform: translateX(-50%); */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+/* Qualification Content Styled Like a Badge */
+.content {
+    padding: 14px 20px;
+    border-radius: 25px;
+    background: #dff6ff;
+    color: #005f86;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content:hover {
+    background: #b3e0f2;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+/* Projects Section */
+#projects {
+    background: linear-gradient(135deg, #1a1a2e 0%, #3757af 100%);
+    color: white;
+    padding: 60px 0;
+}
+
+/* Contact Section */
+#contact {
+    background: #f4f7fc;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact i:hover {
+    color: #005f86;
+    transform: scale(1.2);
+}
