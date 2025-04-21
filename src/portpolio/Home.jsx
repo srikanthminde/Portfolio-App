@@ -5,28 +5,36 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <div>
-      <section id="home" className="min-vh-100 d-flex align-items-center bg-light">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <h1 className="display-4 fw-bold mb-4">
-                Hi, I'm Minde Srikanth
-              </h1>
-              <p className="lead mb-4">
-                Full-Stack Developer skilled in the MERN stack, creating responsive front-end designs and robust back-end solutions using React.js, Node.js, and MongoDB.
-              </p>
-              <div className="d-flex gap-3">
-                <a href="#contact" className=" px-4">
-                <a href="#contact" class="btn btn-light px-4 bi bi-telephone-outbound-fill fs-4">Contact Me </a>
-                </a>
-              </div> 
-            </div>
-            <div className="col-lg-6 d-none d-lg-block text-center">
-            <img id='d10' src={profileImage} alt="Profile" className="img-fluid shadow" style={{ maxHeight: "400px", objectFit: "cover" }} />
-            </div>
-          </div>
-        </div>
-      </section>
+<section id="home" className="min-vh-100 d-flex align-items-center bg-light">
+  <div className="container">
+    <div className="row align-items-center">
+      <div className="col-lg-6" id='p9'>
+        <h1 className="display-4 fw-bold mb-4">
+          Hi, I'm Minde Srikanth
+        </h1>
+        <p className="lead mb-4">
+          Full-Stack Developer skilled in the MERN stack, creating responsive front-end designs and robust back-end solutions using React.js, Node.js, and MongoDB.
+        </p>
+        <div className="d-flex gap-3">
+          <a href="#contact" className="btn btn-light px-4 bi bi-telephone-outbound-fill fs-4">
+            Contact Me
+          </a>
+        </div> 
+      </div>
+
+      {/* Profile image */}
+      <div className="col-lg-6  text-center">
+        <img
+          id="d10"
+          src={profileImage}
+          alt="Profile"
+          className="img-fluid shadow"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Skills Section */}
       <section id="skills" className="py-2">
@@ -166,8 +174,8 @@ function Home() {
                   <p className="card-text text-muted">Designed and developed a web application for a construction materials marketplace, allowing customers to browse and purchase materials from multiple suppliers. The platform features an intuitive user interface with seamless navigation and dynamic interactions.</p>
                   <div className=' d-flex justify-content-between'>
                   <button className='btn btn-outline-warning justify-content-start'><Link  to="https://github.com/srikanthminde/Constructions-Mart-UI" className='text-decoration-none nav-link active'>Git-hub</Link></button> 
-                  <button className='btn btn-outline-success justify-content-end'>Live Demo</button>
-                  </div>
+                  <button className='btn btn-outline-success justify-content-end'><Link to="https://construction-mart-ui-sr-1pmm.vercel.app/" className='text-decoration-none nav-link active'>Live Demo</Link></button>
+                  </div>   
                 </div>
               </div>
             </div>
