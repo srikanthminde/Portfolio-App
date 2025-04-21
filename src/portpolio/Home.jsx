@@ -206,7 +206,7 @@ function Home() {
         <div className="row g-3">
           <div className="col-md-6">
             <div className="card p-1 d-flex align-items-center">
-              <i className="fs-2 bi bi-whatsapp text-success"></i>
+              <i className="fs-2 bi bi-whatsapp text-success"></i> 
               <h5 className="mt-2">WhatsApp number</h5>
               <p className="text-muted">+91 9705377176</p>
             </div>
