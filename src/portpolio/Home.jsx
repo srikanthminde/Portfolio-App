@@ -187,7 +187,7 @@ function Home() {
                   <p className="card-text text-muted">Engineered a robust web platform to streamline the loan application process for customers seeking financing for new vehi-cles, houses, or mobile phones. The platform enables agents to gather customer information, complete application forms, and submit them to managers for approval and fund disbursement.</p>
                   <div className='d-flex justify-content-between'>
                     <button className='btn btn-outline-warning'><Link to="https://github.com/srikanthminde/Loan-Application-Frontend" className='text-decoration-none nav-link active"'>Git-hub</Link></button> 
-                    <button className='btn btn-outline-success'><Link to="https://incandescent-phoenix-0de2a1.netlify.app/login" className='text-decoration-none nav-link active'>Live Demo</Link></button>
+                    <button className='btn btn-outline-success'><Link to="https://lmsloansystem.netlify.app/login" className='text-decoration-none nav-link active'>Live Demo</Link></button>
                   </div>
                 </div>
               </div>
